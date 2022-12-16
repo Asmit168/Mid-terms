@@ -1,0 +1,78 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.right-header{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+    gap: 5px;
+}
+.left-header{
+    margin-left: 45px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px !important;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    color: rgb(160, 152, 152);
+    cursor: pointer;
+    
+}
+
+.bi-cart3{
+padding: 15px;
+cursor: pointer;
+}
+
+.stylelogin{
+    font-weight: 700;
+}
+.shop{
+    color: aqua;
+}
+.bi-chevron-down{
+    margin-top: 15px;
+    color:  rgb(87, 83, 83);
+    cursor: pointer;
+}
+
+
+.order-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    border: 2px solid lightgray;
+    padding: 20px;
+    
+}
+li{
+    list-style: none;
+    font-weight: 600;
+    font-size: medium;
+    
+}
+a{
+    text-decoration: none;
+}
+
+ul>li>button{
+    background-color: none !important;
+}
